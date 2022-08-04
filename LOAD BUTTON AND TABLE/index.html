@@ -1,0 +1,89 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <h1 class="h1"> JSON DATA </h1>
+    
+    <div class="data">
+
+        
+
+
+        <div onsubmit=" validate()" class="checkbox">
+
+            <div id="pm10DataContainer">
+                <input type="checkbox" id="pm10">
+                <label for="pm10">PM10</label>
+            </div>
+            <div id="PM2_5DataContainer">
+                <input type="checkbox" id="pm2_5">
+                <label for="pm2_5">PM2_5</label>
+            </div>
+            <div id="C02datacontainer">
+
+                <input type="checkbox" id="c02">
+                <label for="c02">C02</label>
+            </div>
+
+            <div id="AQIdatacontainer">
+
+                <input type="checkbox" id="aqi">
+                <label for="aqi">AQI</label>
+            </div>
+
+
+            <div id="VOCdatacontainer">
+
+                <input type="checkbox" id="voc">
+                <label for="voc">VOC</label>
+            </div>
+            <button class="button" type="submit" value="submit" id="entry" onclick="validate()"> LOAD</button>
+            <span id="_pm10"></span>
+            <span id="_pm2_5"></span>
+            <span id="_co2"></span>
+            <span id="_voc"></span>
+            <span id="_aqi"></span>
+        </div>
+        <table id="insert_tr">
+            <table id="insert_tr2">
+                <table id="insert_tr3">
+                    <table id="insert_tr4">
+                        <table id="insert_tr5">
+
+      
+            
+            
+           
+          </table>
+          <table id="table2"></table>
+
+        <table class="table" id="display">
+            <thead>
+
+
+            </thead>
+        </table>
+
+    </div>
+
+
+
+    </table>
+    <footer>
+        <script src="main.js"></script>
+
+
+
+
+
+    </footer>
+</body>
+
+</html>

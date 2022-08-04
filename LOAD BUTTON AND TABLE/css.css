@@ -1,0 +1,49 @@
+/* h1 {
+    align-items: center;
+    justify-content: center;
+    padding-left: 500px;
+
+
+
+}
+
+body {
+    padding: 100px;
+    background-color: lightcyan;
+}
+
+/* table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+
+}  */
+
+th, td {
+    
+  text-align: left;
+  padding: 8px;
+    border: 1px solid;
+    border-color: blue;
+  }
+  .data{
+
+  }
+  .checkbox{
+  
+    display: flex;
+
+
+  }
+  /* .button{
+    
+    transition-duration: 0.4s;
+      
+  
+  
+  }
+  /* .button:hover { */
+ 
+     /* Green */
+    /* color: white; */
+  /* }  */
